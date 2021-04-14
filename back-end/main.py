@@ -24,8 +24,8 @@ app.add_middleware(
 
 #wazny kod
 fake_db = {
-    'skurek':'student',
-    'dpietrzyk':'teacher'
+    'skurek':'uczeń',
+    'dpietrzyk':'nauczyciel'
 }
 
 @app.get("/getUserRole")
